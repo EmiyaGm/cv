@@ -1,4 +1,5 @@
 // First, checks if it isn't implemented yet.
+/*
 if (!String.prototype.format) {
   String.prototype.format = function() {
     var args = arguments;
@@ -44,24 +45,21 @@ jQuery(document).ready(function($) {
     $('[data-remodal-id=weixin-modal] button').click(function(event) {
         $(".weixin img").attr('src', $("#weixin-url").val());
     });
-
+*/
+/*
     $('.info-header').hover(function() {
-        /* Stuff to do when the mouse enters the element */
         $(this).children('.unit-remove').css('visibility', 'visible');
         $(this).children('.item-add').css('visibility', 'visible');
 
     }, function() {
-        /* Stuff to do when the mouse leaves the element */
         $(this).children('.unit-remove').css('visibility', 'hidden');
         $(this).children('.item-add').css('visibility', 'hidden');
     });
 
     $('.info-unit ul li').hover(function() {
-        /* Stuff to do when the mouse enters the element */
         $(this).children('.item-remove').css('visibility', 'visible');
 
     }, function() {
-        /* Stuff to do when the mouse leaves the element */
         $(this).children('.item-remove').css('visibility', 'hidden');
     });
 
@@ -87,4 +85,10 @@ jQuery(document).ready(function($) {
     });
     // $("*").removeAttr('contenteditable');
 
+});
+
+*/
+//去掉页面上面所有元素的可编辑性
+$(document).ready(function($){
+ $("*").removeAttr('contenteditable');
 });
