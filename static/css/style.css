@@ -34,7 +34,7 @@ span {
     vertical-align: top;
 }
 
-a:link,a:visited{
+a{
     text-decoration:none;  /*超链接无下划线*/
     color: #607d8b;
 }
