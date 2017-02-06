@@ -34,6 +34,11 @@ span {
     vertical-align: top;
 }
 
+a:link,a:visited{
+    text-decoration:none;  /*超链接无下划线*/
+    color: #607d8b;
+}
+
 .iconfont {
     font-family:"iconfont" !important;
     font-size:1.1em;font-style:normal;
