@@ -1,186 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>EmiyaGm的简历</title>
-    <link rel="stylesheet" href="static/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <link rel="stylesheet" href="static/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
     <script src="static/js/script.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container" id="cv">
-        <div class="side">
-            <div class="me">
-                <h1 id="username" contenteditable="true">EmiyaGm</h1>
-                <h4 id="persona-tag" contenteditable="true">Java / Web前端 </h4>
-            </div>
-            <div class="profile info-unit">
-                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title" contenteditable="true">基本信息</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
-                <hr>
-                <ul class="info-list">
-                    <li>
-                        <label class="left-label" contenteditable="true">姓名</label><span class="label-value" contenteditable="true">龚旻</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    <li>
-                        <label class="left-label" contenteditable="true">学历</label><span class="label-value" contenteditable="true">本科</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    <li>
-                        <label class="left-label" contenteditable="true">毕业院校</label><span class="label-value" contenteditable="true">常熟理工学院</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    <li>
-                        <label class="left-label" contenteditable="true">毕业年份</label><span class="label-value" contenteditable="true">2017</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                </ul>
-            </div>
-            <div class="contact info-unit">
-                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title" contenteditable="true">联系方式</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
-                <hr>
-                <ul class="info-list">
-                    <li>
-                        <label class="left-label" contenteditable="true">手机</label><span class="label-value" contenteditable="true">18260036097</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    <li>
-                        <label class="left-label" contenteditable="true">邮箱</label><span class="label-value" contenteditable="true">464723943@qq.com</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    
-                    <li>
-                        <label class="left-label" contenteditable="true">Github</label><span class="label-value" contenteditable="true">https://github.com/EmiyaGm</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                </ul>
-            </div>
-            <div class="skill info-unit">
-                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title" contenteditable="true">技能点</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
-                <hr>
-                <ul class="progress-list">
-                    
-                    <li>
-                        <label class="left-label" contenteditable="true">html/css</label>
-                        <progress value="70" max="100"></progress>
-                        <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    <li>
-                        <label class="left-label" contenteditable="true">Javascript</label>
-                        <progress value="60" max="100"></progress>
-                        <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
-                    </li>
-                    
-                    <li>
-                        <label class="left-label" contenteditable="true">Java</label>
-                        <progress value="70" max="100"></progress>
-                        <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
-                    </li>
-                    <li>
-                        <label class="left-label" contenteditable="true">Git</label>
-                        <progress value="70" max="100"></progress>
-                        <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
-                    </li>
-                    <li>
-                        <label class="left-label" contenteditable="true">SVN</label>
-                        <progress value="70" max="100"></progress>
-                        <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
-                    </li>
-                </ul>
-            </div>
-            <div class="stack info-unit">
-                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title" contenteditable="true">技术栈</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
-                <hr>
-                <ul class="stack-list">
-                    <li>
-                        <label class="left-label" contenteditable="true">前端</label><span class="label-value" contenteditable="true">jQuery、Bootstrap、Echarts、Sass、Leaflet、G2、HighCharts、Webpack、Gulp</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    
-                    <li>
-                        <label class="left-label" contenteditable="true">后端</label><span class="label-value" contenteditable="true">SpringBoot、Struts2、Spring、SpringMVC、Hibernate、Spring Data JPA、MySQL</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    
-                    
-                    
-                </ul>
-            </div>
-
-            
-            
+      <div class="side">
+        <div class="me">
+          <h1 id="username" contenteditable="true">EmiyaGm</h1>
+          <h4 id="persona-tag" contenteditable="true">Java / Web前端</h4>
         </div>
-        <div class="main">
-            <div class="education info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title" contenteditable="true">教育经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
-                <hr>
-                <ul class="experience-list">
-                    <li>
-                        <h3 contenteditable="true">常熟理工学院 - 软件工程专业（本科）2013-2017</h3>
-                        <p contenteditable="true"></p>
-                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                </ul>
-            </div>
-            <div class="work info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title" contenteditable="true">工作经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
-                <hr>
-                <ul class="experience-list">
-                    <li>
-                        <h3 contenteditable="true">苏州五点科技有限公司－实习生（实习）</h3>
-                        <p contenteditable="true"></p>
-                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    <li>
-                        <h3 contenteditable="true">南京普吉特海湾信息科技有限公司－研发</h3>
-                        <p contenteditable="true"></p>
-                        <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    
-                </ul>
-            </div>
-            <div class="project info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title" contenteditable="true">个人项目</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
-                <hr>
-                <ul class="experience-list">
-                    <li>
-                        <h3 contenteditable="true">基于arduino的智能办公室节能系统</h3>
-                        <p contenteditable="true"><div>•项目描述：</div><div>1.网络化智能控制空调</div><div>2.采集室内室外温湿度并分析整理</div><div>•项目职责：</div><div>1.负责硬件入网和和服务器交互数据</div><div>2.负责服务器和前端交互数据</div><div>3.负责红外信息采集</div>
-                        </p>
-                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
-                    </li>
-                    <li>
-                        <h3 contenteditable="true"><a href="http://139.196.51.68:8888/U9/">用友U9年会自动化生产线展示界面</a></h3>
-                        <p contenteditable="true"></p>
-                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
-                    </li>
-                    <li>
-                        <h3 contenteditable="true">车辆数据管理展现平台hdms</h3>
-                        <p contenteditable="true"><div>•项目描述：</div><div>1.基于php的数据管理平台</div><div>•项目职责：</div><div>1.完成前台页面新功能实现（数据可视化，报表的生成，基于leaflet的地图组件封装，基于echarts、highcharts、G2的图表组件封装）</div><div>2.完成前台页面老功能的重写和维护（表格组件ag-grid替换等）</div>
-                        </p>
-                        <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
-                    </li>
-                    <li>
-                        <h3 contenteditable="true"><a href="https://github.com/EmiyaGm/leaflet_viz_gm">基于leaflet的地图组件</a></h3>
-                        <p contenteditable="true"><div>•项目描述：</div><div>一个基于leaflet的二维地图框架</div><div>•项目功能：</div><div>1.提供多种地图展现（高德，百度，天地图，智图，谷歌，高德路况，百度路况，亮色地图，暗色地图等）</div><div>2.提供大量功能接口，支持自定义点，线，面的添加绘制，支持点聚合，支持点热力图hexbin图分析，支持路线绘制，可动点绘制等</div><div>具体详情请参照组件文档</div>
-                        </p>
-                        <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    <li>
-                        <h3 contenteditable="true"><a href="https://github.com/EmiyaGm/component-chart-gm">基于Echarts-G2的图表组件</a></h3>
-                        <p contenteditable="true"><div>•项目描述：</div><div>根据需求二次封装的图表组件</div><div>•项目功能：</div><div>1.支持饼图，环状图，玫瑰图，线图，区域线图，横向纵向柱图，散点图等多种图表绘制</div><div>2.支持暗色，亮色两种柱图图表绘制</div>
-                        </p>
-                        <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span>
-                    </li>
-                </ul>
-            </div>
-            <div class="trophy info-unit">
-                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title" contenteditable="true">奖项与证书</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
-                <hr>
-                <ul class="experience-list">
-                    <li>
-                        <h3 contenteditable="true">中国大学生计算机设计大赛三等奖</h3>
-                        <p contenteditable="true"></p>
-                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    <li>
-                        <h3 contenteditable="true">CET6级</h3>
-                        <p contenteditable="true"></p>
-                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    <li>
-                        <h3 contenteditable="true">校优秀毕业论文设计一等奖</h3>
-                        <p contenteditable="true"></p>
-                        <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-
-                </ul></div>
-            <div class="aboutme info-unit right-paragraph">
-                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title" contenteditable="true">自我评价</span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
-                <hr>
-                <p contenteditable="true"><div>1.善于自学</div><div>2.热爱IT技术</div><div>3.熟练掌握Java，JSP，HTML，JavaScript，AJAX等技术。</div><div>4.通过英语六级考试</div></p>
-            </div>
+        <div class="profile info-unit">
+          <h2 class="info-header">
+            <i class="iconfont icon-person"></i>
+            <span class="info-title" contenteditable="true">基本信息</span
+            ><span class="item-add" style="visibility: hidden;"
+              ><i class="iconfont icon-playlistadd"></i></span
+            ><span class="unit-remove" style="visibility: hidden;"
+              ><i class="iconfont icon-delete"></i
+            ></span>
+          </h2>
+          <hr />
+          <ul class="info-list">
+            <li>
+              <label class="left-label" contenteditable="true">姓名</label
+              ><span class="label-value" contenteditable="true">龚旻</span
+              ><span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <label class="left-label" contenteditable="true">学历</label
+              ><span class="label-value" contenteditable="true">本科</span
+              ><span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <label class="left-label" contenteditable="true">毕业院校</label
+              ><span class="label-value" contenteditable="true"
+                >常熟理工学院</span
+              ><span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <label class="left-label" contenteditable="true">毕业年份</label
+              ><span class="label-value" contenteditable="true">2017</span
+              ><span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+          </ul>
         </div>
+        <div class="contact info-unit">
+          <h2 class="info-header">
+            <i class="iconfont icon-call"></i>
+            <span class="info-title" contenteditable="true">联系方式</span
+            ><span class="item-add" style="visibility: hidden;"
+              ><i class="iconfont icon-playlistadd"></i></span
+            ><span class="unit-remove" style="visibility: hidden;"
+              ><i class="iconfont icon-delete"></i
+            ></span>
+          </h2>
+          <hr />
+          <ul class="info-list">
+            <li>
+              <label class="left-label" contenteditable="true">手机</label
+              ><span class="label-value" contenteditable="true"
+                >18260036097</span
+              ><span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <label class="left-label" contenteditable="true">邮箱</label
+              ><span class="label-value" contenteditable="true"
+                >464723943@qq.com</span
+              ><span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+
+            <li>
+              <label class="left-label" contenteditable="true">Github</label
+              ><span class="label-value" contenteditable="true"
+                >https://github.com/EmiyaGm</span
+              ><span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+          </ul>
+        </div>
+        <div class="skill info-unit">
+          <h2 class="info-header">
+            <i class="iconfont icon-star"></i>
+            <span class="info-title" contenteditable="true">技能点</span
+            ><span class="item-add" style="visibility: hidden;"
+              ><i class="iconfont icon-playlistadd"></i></span
+            ><span class="unit-remove" style="visibility: hidden;"
+              ><i class="iconfont icon-delete"></i
+            ></span>
+          </h2>
+          <hr />
+          <ul class="progress-list">
+            <li>
+              <label class="left-label" contenteditable="true">html/css</label>
+              <progress value="70" max="100"></progress>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <label class="left-label" contenteditable="true"
+                >Javascript</label
+              >
+              <progress value="60" max="100"></progress>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <label class="left-label" contenteditable="true">React</label>
+              <progress value="60" max="100"></progress>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <label class="left-label" contenteditable="true">Vue</label>
+              <progress value="60" max="100"></progress>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+
+            <li>
+              <label class="left-label" contenteditable="true">Java</label>
+              <progress value="70" max="100"></progress>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <label class="left-label" contenteditable="true">Git</label>
+              <progress value="70" max="100"></progress>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <label class="left-label" contenteditable="true">SVN</label>
+              <progress value="70" max="100"></progress>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+          </ul>
+        </div>
+        <div class="stack info-unit">
+          <h2 class="info-header">
+            <i class="iconfont icon-build"></i>
+            <span class="info-title" contenteditable="true">技术栈</span
+            ><span class="item-add" style="visibility: hidden;"
+              ><i class="iconfont icon-playlistadd"></i></span
+            ><span class="unit-remove" style="visibility: hidden;"
+              ><i class="iconfont icon-delete"></i
+            ></span>
+          </h2>
+          <hr />
+          <ul class="stack-list">
+            <li>
+              <label class="left-label" contenteditable="true">前端</label
+              ><span class="label-value" contenteditable="true"
+                >React、Redux、Mobx、Vue、jQuery、Bootstrap、Echarts、Sass、Leaflet、G2、HighCharts、Webpack、Gulp</span
+              ><span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+
+            <li>
+              <label class="left-label" contenteditable="true">后端</label
+              ><span class="label-value" contenteditable="true"
+                >SpringBoot、Struts2、Spring、SpringMVC、Hibernate、Spring Data
+                JPA、MySQL</span
+              ><span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="main">
+        <div class="education info-unit right-list">
+          <h2 class="info-header">
+            <i class="iconfont icon-education"></i>
+            <span class="info-title" contenteditable="true">教育经历</span
+            ><span class="item-add" style="visibility: hidden;"
+              ><i class="iconfont icon-playlistadd"></i></span
+            ><span class="unit-remove" style="visibility: hidden;"
+              ><i class="iconfont icon-delete"></i
+            ></span>
+          </h2>
+          <hr />
+          <ul class="experience-list">
+            <li>
+              <h3 contenteditable="true">
+                常熟理工学院 - 软件工程专业（本科）2013-2017
+              </h3>
+              <p contenteditable="true"></p>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+          </ul>
+        </div>
+        <div class="work info-unit right-list">
+          <h2 class="info-header">
+            <i class="iconfont icon-work"></i>
+            <span class="info-title" contenteditable="true">工作经历</span
+            ><span class="item-add" style="visibility: hidden;"
+              ><i class="iconfont icon-playlistadd"></i></span
+            ><span class="unit-remove" style="visibility: hidden;"
+              ><i class="iconfont icon-delete"></i
+            ></span>
+          </h2>
+          <hr />
+          <ul class="experience-list">
+            <li>
+              <h3 contenteditable="true">
+                苏州五点科技有限公司－实习生（实习）
+              </h3>
+              <p contenteditable="true"></p>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <h3 contenteditable="true">
+                南京普吉特海湾信息科技有限公司－研发
+              </h3>
+              <p contenteditable="true"></p>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <h3 contenteditable="true">
+                南京第三极区块链科技有限公司－研发
+              </h3>
+              <p contenteditable="true"></p>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+          </ul>
+        </div>
+        <div class="project info-unit right-list">
+          <h2 class="info-header">
+            <i class="iconfont icon-project"></i>
+            <span class="info-title" contenteditable="true">个人项目</span
+            ><span class="item-add" style="visibility: hidden;"
+              ><i class="iconfont icon-playlistadd"></i></span
+            ><span class="unit-remove" style="visibility: hidden;"
+              ><i class="iconfont icon-delete"></i
+            ></span>
+          </h2>
+          <hr />
+          <ul class="experience-list">
+            <li>
+              <h3 contenteditable="true">
+                乙信 IM
+              </h3>
+              <div>•项目描述：</div>
+              <div>1.内嵌在一乙app中的 IM 工具</div>
+              <div>•项目职责：</div>
+              <div>
+                1.完成项目构建，新功能开发
+              </div>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <h3 contenteditable="true">
+                区块链相关后台管理平台
+              </h3>
+              <div>•项目描述：</div>
+              <div>1.用于管理区块链相关项目的数据管理平台</div>
+              <div>•项目职责：</div>
+              <div>
+                1.完成项目构建，前后台页面开发
+              </div>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <h3 contenteditable="true">
+                dapp.fo wallet.fo 官网以及区块链浏览器
+              </h3>
+              <div>•项目描述：</div>
+              <div>1.展示性官网，兼容移动端，国际化</div>
+              <div>•项目职责：</div>
+              <div>
+                1.完成前后台相关页面实现
+              </div>
+              <div>
+                2.区块链接口相关插件对接，功能实现
+              </div>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <h3 contenteditable="true">车辆数据管理展现平台hdms</h3>
+              <div>•项目描述：</div>
+              <div>1.基于php的数据管理平台</div>
+              <div>•项目职责：</div>
+              <div>
+                1.完成前台页面新功能实现（数据可视化，报表的生成，基于leaflet的地图组件封装，基于echarts、highcharts、G2的图表组件封装）
+              </div>
+              <div>
+                2.完成前台页面老功能的重写和维护（表格组件ag-grid替换等）
+              </div>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <h3 contenteditable="true">
+                <a href="https://github.com/EmiyaGm/leaflet_viz_gm"
+                  >基于leaflet的地图组件</a
+                >
+              </h3>
+              <div>•项目描述：</div>
+              <div>一个基于leaflet的二维地图框架</div>
+              <div>•项目功能：</div>
+              <div>
+                1.提供多种地图展现（高德，百度，天地图，智图，谷歌，高德路况，百度路况，亮色地图，暗色地图等）
+              </div>
+              <div>
+                2.提供大量功能接口，支持自定义点，线，面的添加绘制，支持点聚合，支持点热力图hexbin图分析，支持路线绘制，可动点绘制等
+              </div>
+              <div>具体详情请参照组件文档</div>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+          </ul>
+        </div>
+        <div class="trophy info-unit">
+          <h2 class="info-header">
+            <i class="iconfont icon-trophy"></i>
+            <span class="info-title" contenteditable="true">奖项与证书</span
+            ><span class="item-add" style="visibility: hidden;"
+              ><i class="iconfont icon-playlistadd"></i></span
+            ><span class="unit-remove" style="visibility: hidden;"
+              ><i class="iconfont icon-delete"></i
+            ></span>
+          </h2>
+          <hr />
+          <ul class="experience-list">
+            <li>
+              <h3 contenteditable="true">中国大学生计算机设计大赛三等奖</h3>
+              <p contenteditable="true"></p>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <h3 contenteditable="true">CET6级</h3>
+              <p contenteditable="true"></p>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+            <li>
+              <h3 contenteditable="true">校优秀毕业论文设计一等奖</h3>
+              <p contenteditable="true"></p>
+              <span class="item-remove" style="visibility: hidden;"
+                ><i class="iconfont icon-delete"></i
+              ></span>
+            </li>
+          </ul>
+        </div>
+        <div class="aboutme info-unit right-paragraph">
+          <h2 class="info-header">
+            <i class="iconfont icon-flower"></i>
+            <span class="info-title" contenteditable="true">自我评价</span
+            ><span class="unit-remove" style="visibility: hidden;"
+              ><i class="iconfont icon-delete"></i
+            ></span>
+          </h2>
+          <hr />
+          <div>1.善于自学</div>
+          <div>2.热爱IT技术</div>
+          <div>3.熟练掌握Java，JSP，HTML，JavaScript，AJAX等技术。</div>
+          <div>4.通过英语六级考试</div>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
